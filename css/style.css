@@ -1,5 +1,5 @@
 
-.title-page {
+ /* .title-page { 
     max-width: 1440px;
     background-color: #2E2F42;
     text-align: center;
@@ -50,7 +50,7 @@
 .button-order-service:hover,
 .button-order-service:focus {
     background: var(--OCEAN, #404BBF);
-}
+} */
 
 .benefits-list {
     display: flex;
