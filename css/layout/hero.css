@@ -18,6 +18,15 @@
 
 }
 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .title-page {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                    rgba(46, 47, 66, 0.70)), url('/images/title-page/hero-mobile@2x.jpg');
+        }
+}
+
 .title-page {
     max-width: 1440px;
     background-color: #2E2F42;
@@ -80,6 +89,15 @@
     }
 }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .title-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)), url('/images/title-page/hero-tablet@2x.jpg');
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .title-page {
         padding-top: 188px;
@@ -90,5 +108,14 @@
 
     .name-page {
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .title-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)), url('/images/title-page/hero@2x.jpg');
     }
 }
