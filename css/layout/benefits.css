@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px) {
+    .container-benefits {
+        display: none;
+    }
+
+    .benefits-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 72px;
+    }
+
+    .benefits-list-item {
+        display: flex;
+        width: 288px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .benefits-menu-list {
+        align-self: stretch;
+        text-align: center;
+    }
+
+    .benefits-menu-text {
+        align-self: stretch;
+    }
+
+}
+
+.benefits-list {
+    display: flex;
+}
+
+.benefits-menu-list {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.benefits-menu-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+    .container-benefits {
+        display: none;
+    }
+
+    .benefits-list {
+        flex-wrap: wrap;
+        width: 736px;
+        gap: 72px 24px;
+    }
+
+    .benefits-list-item {
+        display: flex;
+        width: 356px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .benefits-menu-list {
+        width: 264px;
+    }
+
+    .benefits-menu-text {
+        align-self: stretch;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .benefits-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        
+    }
+
+    .benefits-list-item {
+        width: calc(100% - 3 * 24px / 4);
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .container-benefits {
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+    
+    .benefits-menu-list {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        margin-bottom: 8px;
+    }
+    
+}

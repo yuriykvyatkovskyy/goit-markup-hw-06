@@ -1,38 +1,6 @@
 
-.benefits-list {
-    display: flex;
-    gap: 24px;
-}
 
-.benefits-list-item {
-    width: calc(100% - 3 * 24px / 4);
-}
 
-.container-benefits {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.benefits-menu-list {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    margin-bottom: 8px;
-}
-
-.benefits-menu-text {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 
 .employee-team {
     background-color: #F4F4FD;
