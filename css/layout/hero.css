@@ -1,12 +1,29 @@
-/* .title-page {
+@media screen and (max-width: 767px) {
+    .title-page {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                        rgba(46, 47, 66, 0.70)), url('/images/title-page/hero-mobile.jpg');
+    }
+
+    .name-page {
+        max-width: 288px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+
+}
+
+.title-page {
     max-width: 1440px;
     background-color: #2E2F42;
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/title-page/people-office.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,13 +32,12 @@
 .name-page {
     max-width: 496px;
     color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
-    margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    letter-spacing: 0.02em;
 }
 
 .button-order-service {
@@ -49,4 +65,30 @@
 .button-order-service:hover,
 .button-order-service:focus {
     background: var(--OCEAN, #404BBF);
-} */
+} 
+
+@media screen and (min-width: 768px) {
+    .title-page {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                        rgba(46, 47, 66, 0.70)), url('/images/title-page/hero-tablet.jpg');
+    }
+
+    .name-page {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .title-page {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)), url('/images/title-page/hero.jpg');
+    }
+
+    .name-page {
+        margin-bottom: 48px;
+    }
+}
