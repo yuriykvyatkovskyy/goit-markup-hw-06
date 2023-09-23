@@ -1,0 +1,198 @@
+@media screen and (max-width: 767px) {
+    .employee-list {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 72px;
+    }
+}
+
+.employee-team {
+    background-color: #F4F4FD;
+}
+
+.employee-page {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.employee-img {
+    background: lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
+}
+
+.employee-card {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    display: inline-flex;
+    width: 264px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.employee-card-content {
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.employee-name {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.employee-position {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.social-employee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-employee-list {
+    width: 40px;
+    height: 40px;
+}
+
+.social-employee-card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
+}
+
+.social-employee-card:hover,
+.social-employee-card:focus {
+    background-color: #404bbf;
+}
+
+.social-employee-icons {
+    fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+    .employee-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 64px 24px;
+    }
+}
+
+/* .employee-team {
+    background-color: #F4F4FD;
+}
+
+.employee-page {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.employee-list {
+    display: flex;
+    gap: 24px;
+}
+
+.employee-card {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc(100% - 3 * 24px / 4);
+}
+
+.employee-img {
+    background: lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
+}
+
+.employee-card-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.employee-name {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.employee-position {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+}
+
+.social-employee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-employee-list {
+    width: 40px;
+    height: 40px;
+}
+
+.social-employee-card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
+}
+
+.social-employee-card:hover,
+.social-employee-card:focus {
+    background-color: #404bbf;
+}
+
+.social-employee-icons {
+    fill: #f4f4fd;
+} */
