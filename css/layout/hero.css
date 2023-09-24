@@ -3,7 +3,7 @@
         padding-top: 72px;
         padding-bottom: 72px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
-                        rgba(46, 47, 66, 0.70)), url('/images/title-page/hero-mobile.jpg');
+                        rgba(46, 47, 66, 0.70)), url('../../images/title-page/hero-mobile.jpg');
     }
 
     .name-page {
