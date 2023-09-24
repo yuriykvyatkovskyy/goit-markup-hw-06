@@ -3,10 +3,6 @@
 @import "./base/container.css";
 @import "./base/section.css";
 
-/* UTILS */
-@import "./utils/visually-hidden.css";
-@import "./utils/variables.css";
-
 /* LAYOUT */
 @import "./layout/header.css";
 @import "./layout/hero.css";
@@ -15,3 +11,7 @@
 @import "./layout/directions.css";
 @import "./layout/footer.css";
 @import "./layout/modal.css";
+
+/* UTILS */
+@import "./utils/visually-hidden.css";
+@import "./utils/variables.css";
