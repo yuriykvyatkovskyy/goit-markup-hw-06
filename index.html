@@ -18,16 +18,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="./css/style.css"
-      media="screen and (min-width: 768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/style.css"
-      media="screen and (min-width: 1158px)"
-    />
   </head>
   <body>
     <!--Header-->
@@ -600,100 +590,96 @@
     </main>
     <footer class="footer-bottom">
       <div class="container footer-container">
-        <div class="footer-container-link">
-          <div class="footer-container-logo">
-            <a class="logo-footer logotype-web link" href="./index.html">
-              Web<span class="logotype-studio-footer">Studio</span>
-            </a>
-            <p class="footer-text">
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
-            </p>
-          </div>
-          <div class="footer-social">
-            <p class="footer-social-name">Social media</p>
-            <ul class="footer-social-page list">
-              <li class="footer-social-list">
-                <a class="footer-social-card" href="">
-                  <svg
-                    class="footer-social-icons"
-                    width="24"
-                    height="24"
-                    aria-label="instagram icon"
-                  >
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a class="footer-social-card" href="">
-                  <svg
-                    class="footer-social-icons"
-                    width="24"
-                    height="24"
-                    aria-label="twitter icon"
-                  >
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a class="footer-social-card" href="">
-                  <svg
-                    class="footer-social-icons"
-                    width="24"
-                    height="24"
-                    aria-label="facebook icon"
-                  >
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a class="footer-social-card" href="">
-                  <svg
-                    class="footer-social-icons"
-                    width="24"
-                    height="24"
-                    aria-label="linkedin icon"
-                  >
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-container-logo">
+          <a class="logo-footer logotype-web link" href="./index.html">
+            Web<span class="logotype-studio-footer">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
         </div>
-        <div class="footer-modal-link">
-          <div class="footer-modal">
-            <p class="footer-modal-name">Subscribe</p>
-            <form class="footer-modal-form">
-              <label class="footer-modal-form-label">
-                <input
-                  class="footer-modal-email"
-                  name="email"
-                  type="email"
-                  placeholder="E-mail"
-                />
-              </label>
-              <button class="footer-modal-button" type="submit">
-                Subscribe
+        <div class="footer-social">
+          <p class="footer-social-name">Social media</p>
+          <ul class="footer-social-page list">
+            <li class="footer-social-list">
+              <a class="footer-social-card" href="">
                 <svg
-                  class="footer-modal-button-icon"
+                  class="footer-social-icons"
                   width="24"
                   height="24"
-                  aria-label="telegram icon"
+                  aria-label="instagram icon"
                 >
-                  <use href="./images/icons.svg#icon-telegram"></use>
+                  <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
-              </button>
-            </form>
-          </div>
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a class="footer-social-card" href="">
+                <svg
+                  class="footer-social-icons"
+                  width="24"
+                  height="24"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a class="footer-social-card" href="">
+                <svg
+                  class="footer-social-icons"
+                  width="24"
+                  height="24"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a class="footer-social-card" href="">
+                <svg
+                  class="footer-social-icons"
+                  width="24"
+                  height="24"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-modal">
+          <p class="footer-modal-name">Subscribe</p>
+          <form class="footer-modal-form">
+            <label class="footer-modal-form-label">
+              <input
+                class="footer-modal-email"
+                name="email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-modal-button" type="submit">
+              Subscribe
+              <svg
+                class="footer-modal-button-icon"
+                width="24"
+                height="24"
+                aria-label="telegram icon"
+              >
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
     <!-- Backdrop with modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -841,68 +827,70 @@
         <ul class="contact-list-mobile list">
           <li class="contact-list-item-mobile">
             <a
+              class="contact-list-link-mobile contact-list-link-mobile-tel link"
+              href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="contact-list-item-mobile">
+            <a
               class="contact-list-link-mobile link"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contact-list-item-mobile">
-            <a class="contact-list-link-mobile link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+        </ul>
+        <ul class="header-mobile-social-page list">
+          <li class="header-mobile-social-list">
+            <a class="header-mobile-social-card" href="">
+              <svg
+                class="header-mobile-social-icons"
+                width="24"
+                height="24"
+                aria-label="instagram icon"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-mobile-social-list">
+            <a class="header-mobile-social-card" href="">
+              <svg
+                class="header-mobile-social-icons"
+                width="24"
+                height="24"
+                aria-label="twitter icon"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-mobile-social-list">
+            <a class="header-mobile-social-card" href="">
+              <svg
+                class="header-mobile-social-icons"
+                width="24"
+                height="24"
+                aria-label="facebook icon"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-mobile-social-list">
+            <a class="header-mobile-social-card" href="">
+              <svg
+                class="header-mobile-social-icons"
+                width="24"
+                height="24"
+                aria-label="linkedin icon"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </address>
-      <ul class="header-mobile-social-page list">
-        <li class="header-mobile-social-list">
-          <a class="header-mobile-social-card" href="">
-            <svg
-              class="header-mobile-social-icons"
-              width="24"
-              height="24"
-              aria-label="instagram icon"
-            >
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-mobile-social-list">
-          <a class="header-mobile-social-card" href="">
-            <svg
-              class="header-mobile-social-icons"
-              width="24"
-              height="24"
-              aria-label="twitter icon"
-            >
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-mobile-social-list">
-          <a class="header-mobile-social-card" href="">
-            <svg
-              class="header-mobile-social-icons"
-              width="24"
-              height="24"
-              aria-label="facebook icon"
-            >
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-mobile-social-list">
-          <a class="header-mobile-social-card" href="">
-            <svg
-              class="header-mobile-social-icons"
-              width="24"
-              height="24"
-              aria-label="linkedin icon"
-            >
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
     </div>
   </body>
 </html>

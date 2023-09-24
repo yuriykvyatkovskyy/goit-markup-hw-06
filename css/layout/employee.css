@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     .employee-list {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 72px;
@@ -30,23 +30,11 @@
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    display: inline-flex;
-    width: 264px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    padding-bottom: 32px;
 }
 
 .employee-card-content {
-    display: flex;
-    width: 232px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .employee-name {
@@ -56,6 +44,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .employee-position {
@@ -64,6 +53,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 8px;
 }
 
 .social-employee {
@@ -87,7 +77,6 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
 }
 
 .social-employee-card:hover,
@@ -113,5 +102,10 @@
     .employee-list {
         display: flex;
         gap: 24px;
+    } 
+
+    .employee-card {
+        width: calc((100% - 3 * 24px) / 4);
     }
+
 }
