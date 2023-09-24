@@ -9,7 +9,6 @@
         align-items: center;
     }
 
-    
     .footer-container-logo {
         text-align: center;
     }
@@ -23,6 +22,10 @@
     .footer-social {
         text-align: center;
         margin-bottom: 72px;
+    }
+
+    .footer-social-page {
+        justify-content: center;
     }
 
     .footer-modal {
