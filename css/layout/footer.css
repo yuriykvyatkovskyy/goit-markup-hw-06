@@ -195,6 +195,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         column-gap: 24px;
+        row-gap: 72px;
     } 
 
     .footer-container-logo {
@@ -207,7 +208,6 @@
 
     .footer-modal {
         text-decoration: none;
-        margin-top: 72px;
     }
 
     .footer-modal-form {
@@ -230,6 +230,7 @@
         width: max-content;
         align-items: baseline;
         column-gap: 0;
+        row-gap: 0;
     }
 
     .footer-container-logo {
